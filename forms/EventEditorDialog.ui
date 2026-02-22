@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>EventEditorDialogClass</class>
+ <widget class="QDialog" name="EventEditorDialogClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>296</width>
+    <height>297</height>
+   </rect>
+  </property>
+  <property name="Edit Event" stdset="0">
+   <string>EventEditorDialog</string>
+  </property>
+  <layout class="QFormLayout" name="formLayout">
+   <item row="0" column="0" colspan="2">
+    <widget class="QLineEdit" name="title"/>
+   </item>
+   <item row="1" column="0">
+    <widget class="QTextEdit" name="note"/>
+   </item>
+   <item row="3" column="0">
+    <widget class="QDateTimeEdit" name="startDate"/>
+   </item>
+   <item row="4" column="0">
+    <widget class="QDateTimeEdit" name="endDate"/>
+   </item>
+   <item row="5" column="0" colspan="2">
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <property name="leftMargin">
+      <number>0</number>
+     </property>
+     <property name="topMargin">
+      <number>0</number>
+     </property>
+     <item>
+      <widget class="QPushButton" name="okButton">
+       <property name="text">
+        <string>Ok</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="cancelButton">
+       <property name="text">
+        <string>Cancel</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>

@@ -1,0 +1,15 @@
+﻿   Qt/MSBuild: 3.4.1.0
+  Reading Qt configuration (C:/Qt/6.10.2/msvc2022_64/bin/qmake)
+   Qt: 6.10.2
+  main.cpp
+  CalendarEngine.cpp
+  DatabaseManager.cpp
+  Calendar.cpp
+  DayWindow.cpp
+  EventEditorDialog.cpp
+F:\Projekt\CalendarApp\CalendarApp\src\main.cpp(1,10): error C1083: Nie można otworzyć pliku dołącz: './Calendar/include/ui/Calendar.h': No such file or directory
+F:\Projekt\CalendarApp\CalendarApp\src\ui\EventEditorDialog.cpp(1,10): error C1083: Nie można otworzyć pliku dołącz: './Calendar/include/ui/EventEditorDialog.h': No such file or directory
+F:\Projekt\CalendarApp\CalendarApp\src\ui\DayWindow.cpp(1,10): error C1083: Nie można otworzyć pliku dołącz: './Calendar/include/ui/DayWindow.h': No such file or directory
+F:\Projekt\CalendarApp\CalendarApp\src\models\DatabaseManager.cpp(1,10): error C1083: Nie można otworzyć pliku dołącz: './Calendar/include/models/DatabaseManager.h': No such file or directory
+F:\Projekt\CalendarApp\CalendarApp\src\ui\Calendar.cpp(1,10): error C1083: Nie można otworzyć pliku dołącz: './Calendar/include/ui/Calendar.h': No such file or directory
+F:\Projekt\CalendarApp\CalendarApp\src\models\CalendarEngine.cpp(1,10): error C1083: Nie można otworzyć pliku dołącz: './Calendar/include/models/CalendarEngine.h': No such file or directory

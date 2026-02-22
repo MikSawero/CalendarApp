@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>DayWindowClass</class>
+ <widget class="QDialog" name="DayWindowClass">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>537</width>
+    <height>275</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>DayWindow</string>
+  </property>
+  <layout class="QGridLayout" name="gridLayout">
+   <item row="0" column="0">
+    <widget class="QLabel" name="currentDate">
+     <property name="text">
+      <string>Wydarzenia dla:</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="0">
+    <widget class="QListView" name="attachmentsListView"/>
+   </item>
+   <item row="3" column="2">
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="QPushButton" name="addNewAttachment">
+       <property name="text">
+        <string>Add new attachment</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="editAttachmentButton">
+       <property name="text">
+        <string>Edit Attachment</string>
+       </property>
+      </widget>
+     </item>
+	 <item>
+	  <widget class="QPushButton" name="deleteAttachmentButton">
+	    <property name="text">
+		  <string>Delete attachment</string>
+	    </property>
+	   </widget>
+	 </item>
+     <item>
+      <widget class="QPushButton" name="exitButton">
+       <property name="text">
+        <string>Exit</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <layoutdefault spacing="6" margin="11"/>
+ <resources/>
+ <connections/>
+</ui>
